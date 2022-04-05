@@ -1,7 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
-import papel from './papel.svg';
-import piedra from './piedra.svg';
 import tijeras from './tijeras.svg';
 import './Game.css';
 
