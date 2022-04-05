@@ -39,7 +39,7 @@ class Game extends Component {
         let pointb = parseInt(this.state.pointb);
         let pointy = parseInt(this.state.pointy);
         let random = parseInt(this.state.random);
-        let text = calculateText(random, number, pointb, pointy);
+        //let text = calculateText(random, number, pointb, pointy);
         generateRandomNumber();
         console.log("el random", random);
 
