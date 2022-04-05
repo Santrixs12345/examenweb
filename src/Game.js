@@ -101,45 +101,6 @@ class Game extends Component {
 
 export default Game;
 
-function calculateText(random, number, pointb, pointy) {
-
-    if (random === number) {
-        return "empataron";
-    }
-        if (number === 1) {
-            if (random === 2){
-                
-                return "le ganaste"
-            }
-            if (random === 3){
-                
-                return "t emato"
-            }
-        }
-        if (number === 2) {
-            if (random === 1){
-                
-                return "t emato"
-            }
-            if (random === 3){
-                
-                return "le ganaste"
-            }
-        }
-        if (number === 3) {
-            if (random === 1){
-                
-                return "le ganaste"
-            }
-            if (random === 2){
-                
-                return "t emato"
-            }
-        }
-
-}
-
-
 function generateRandomNumber(max=3, min=1) {
     return Math.floor(Math.random()*(max - min) + min);
 }
